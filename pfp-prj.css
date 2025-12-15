@@ -1,0 +1,120 @@
+.container {
+  height: auto;
+  max-width: 600px;
+  /*background-color: rgb(220, 238, 255);*/
+  background: linear-gradient(rgb(214, 236, 255), rgb(159, 144, 228));
+  margin: 32px auto;
+  padding: 24px 40px;
+  border-radius: 24px;
+  border: 1px solid rgb(212, 212, 212);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.img-container {
+  object-fit: contain;
+}
+
+.pfp-img {
+  width: 150px;
+  height: 150px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 100%;
+  box-shadow: 0 0 8px rgb(0, 0, 0, 0.9);
+}
+
+.info-sec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.my-name {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0 auto;
+}
+
+.about-me {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 0 auto;
+  max-width: 100x;
+}
+
+.contact-form {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 252, 243);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+
+  box-shadow: 0 0 8px rgb(0, 0, 0, 0.2);
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 8px;
+  padding: 20px 24px;
+}
+
+.name-email {
+  width: 98%;
+  height: 56px;
+  margin: 0px 0px;
+  border: 0.5px solid gray;
+  border-radius: 8px;
+  padding: 0px 8px;
+
+  font-size: 1rem;
+}
+
+.text-area {
+  height: 200px;
+  width: 98%;
+  border: 0;
+  border-radius: 8px;
+  margin-top: 8px;
+  padding: 8px;
+
+  font-size: 1rem;
+  border: 0.5px solid gray;
+}
+
+.submit-button {
+  height: 40px;
+  width: 25%;
+  border: 0;
+  border-radius: 16px;
+  margin-top: 16px;
+  background-color: #fff;
+
+  border: 0.5px solid gray;
+
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  border-radius: 32px;
+  background-color: #181818;
+  color: white;
+  transition: 300ms;
+}
+
+.submit-button:active {
+  border-radius: 16px;
+  background-color: rgb(82, 82, 82);
+  color: rgb(245, 245, 245);
+  transition: 300ms;
+}
